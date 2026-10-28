@@ -1,0 +1,511 @@
+{
+  "overview": {
+    "total_customers": 5868,
+    "total_revenue": 16590567.52,
+    "total_orders": 44370,
+    "aov": 451.16,
+    "pct_active_90d": 49.2
+  },
+  "segments": {
+    "labels": [
+      "Champions",
+      "Loyal Customers",
+      "Potential Loyalists",
+      "New Customers",
+      "Need Attention",
+      "At Risk",
+      "About To Sleep",
+      "Hibernating"
+    ],
+    "counts": [
+      1266,
+      847,
+      714,
+      239,
+      304,
+      441,
+      1109,
+      948
+    ],
+    "revenue": [
+      11530705.65,
+      2614980.23,
+      687967.4,
+      79095.76,
+      338232.61,
+      458113.44,
+      522605.79,
+      358866.63
+    ]
+  },
+  "cohort_milestones": {
+    "M1": {
+      "mean": 21.0,
+      "n_cohorts": 24
+    },
+    "M3": {
+      "mean": 21.6,
+      "n_cohorts": 22
+    },
+    "M6": {
+      "mean": 17.9,
+      "n_cohorts": 19
+    },
+    "M12": {
+      "mean": 18.2,
+      "n_cohorts": 13
+    }
+  },
+  "country": [
+    {
+      "country_group": "France",
+      "customers": 94,
+      "revenue": 301809.3,
+      "avg_recency": 121.6
+    },
+    {
+      "country_group": "Germany",
+      "customers": 106,
+      "revenue": 379212.7,
+      "avg_recency": 131.7
+    },
+    {
+      "country_group": "Other (small sample, <30 customers)",
+      "customers": 285,
+      "revenue": 1956938.2,
+      "avg_recency": 214.5
+    },
+    {
+      "country_group": "Spain",
+      "customers": 35,
+      "revenue": 81783.3,
+      "avg_recency": 164.4
+    },
+    {
+      "country_group": "United Kingdom",
+      "customers": 5348,
+      "revenue": 13870824.0,
+      "avg_recency": 203.5
+    }
+  ],
+  "revenue_at_risk": {
+    "total_historical_revenue": 16590567.516999999,
+    "at_risk_population_size": 2802.0,
+    "at_risk_population_pct": 47.75051124744376,
+    "at_risk_historical_revenue": 1677818.475,
+    "at_risk_historical_pct_of_total": 10.113086687847028,
+    "at_risk_clv_coverage_n": 2287.0,
+    "at_risk_clv_coverage_pct": 81.62027123483226,
+    "total_predicted_future_value": 1414891.404920757,
+    "revenue_at_risk_raw": 255295.43578734712,
+    "revenue_at_risk_pct_of_predicted_raw": 18.04346502491089,
+    "winsorize_cap_99pct": 2985.4745327281594,
+    "revenue_at_risk_winsorized": 234622.29517608322,
+    "total_predicted_winsorized": 1278776.0896938655,
+    "revenue_at_risk_pct_of_predicted_winsorized": 18.347410236005505
+  },
+  "retention_simulation": [
+    {
+      "strategy": "A_target_everyone",
+      "customers_targeted": 5868,
+      "campaign_cost_gbp": 29340.0,
+      "assumed_win_back_rate": 0.2,
+      "expected_recovered_value_gbp": 46924.45903521665,
+      "expected_net_value_gbp": 17584.45903521665,
+      "roi": 0.5993339821137236,
+      "win_back_rate_label": "20%"
+    },
+    {
+      "strategy": "B_target_all_at_risk",
+      "customers_targeted": 2802,
+      "campaign_cost_gbp": 14010.0,
+      "assumed_win_back_rate": 0.2,
+      "expected_recovered_value_gbp": 46924.45903521665,
+      "expected_net_value_gbp": 32914.45903521665,
+      "roi": 2.3493546777456564,
+      "win_back_rate_label": "20%"
+    },
+    {
+      "strategy": "C_target_high_value_at_risk",
+      "customers_targeted": 572,
+      "campaign_cost_gbp": 2860.0,
+      "assumed_win_back_rate": 0.2,
+      "expected_recovered_value_gbp": 36274.298002138596,
+      "expected_net_value_gbp": 33414.298002138596,
+      "roi": 11.68332097976874,
+      "win_back_rate_label": "20%"
+    }
+  ],
+  "rfm_stats": {
+    "recency": {
+      "count": 5868.0,
+      "mean": 201.2,
+      "std": 208.7,
+      "min": 1.0,
+      "25%": 26.0,
+      "50%": 96.0,
+      "75%": 380.0,
+      "max": 739.0
+    },
+    "frequency": {
+      "count": 5868.0,
+      "mean": 6.3,
+      "std": 12.9,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 7.0,
+      "max": 392.0
+    },
+    "monetary": {
+      "count": 5868.0,
+      "mean": 2827.3,
+      "std": 14024.0,
+      "min": -10953.5,
+      "25%": 331.8,
+      "50%": 853.0,
+      "75%": 2207.0,
+      "max": 599443.6
+    }
+  },
+  "rfm_stats_by_segment": {
+    "Champions": {
+      "recency": {
+        "count": 1266.0,
+        "mean": 20.1,
+        "std": 15.7,
+        "min": 1.0,
+        "25%": 6.0,
+        "50%": 17.0,
+        "75%": 30.0,
+        "max": 59.0
+      },
+      "frequency": {
+        "count": 1266.0,
+        "mean": 17.3,
+        "std": 23.6,
+        "min": 5.0,
+        "25%": 8.0,
+        "50%": 11.0,
+        "75%": 18.0,
+        "max": 392.0
+      },
+      "monetary": {
+        "count": 1266.0,
+        "mean": 9108.0,
+        "std": 29025.0,
+        "min": 1199.0,
+        "25%": 2384.7,
+        "50%": 3959.6,
+        "75%": 7549.1,
+        "max": 599443.6
+      }
+    },
+    "Loyal Customers": {
+      "recency": {
+        "count": 847.0,
+        "mean": 165.2,
+        "std": 135.9,
+        "min": 2.0,
+        "25%": 69.0,
+        "50%": 115.0,
+        "75%": 221.5,
+        "max": 641.0
+      },
+      "frequency": {
+        "count": 847.0,
+        "mean": 8.5,
+        "std": 7.1,
+        "min": 5.0,
+        "25%": 5.0,
+        "50%": 7.0,
+        "75%": 9.0,
+        "max": 155.0
+      },
+      "monetary": {
+        "count": 847.0,
+        "mean": 3087.3,
+        "std": 4517.1,
+        "min": 600.1,
+        "25%": 1120.3,
+        "50%": 1900.1,
+        "75%": 3318.5,
+        "max": 56560.6
+      }
+    },
+    "Potential Loyalists": {
+      "recency": {
+        "count": 714.0,
+        "mean": 25.9,
+        "std": 16.2,
+        "min": 1.0,
+        "25%": 11.0,
+        "50%": 24.0,
+        "75%": 38.0,
+        "max": 59.0
+      },
+      "frequency": {
+        "count": 714.0,
+        "mean": 2.9,
+        "std": 0.8,
+        "min": 2.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 4.0
+      },
+      "monetary": {
+        "count": 714.0,
+        "mean": 963.5,
+        "std": 1062.1,
+        "min": -130.2,
+        "25%": 470.7,
+        "50%": 747.4,
+        "75%": 1141.1,
+        "max": 17437.7
+      }
+    },
+    "New Customers": {
+      "recency": {
+        "count": 239.0,
+        "mean": 30.5,
+        "std": 16.1,
+        "min": 1.0,
+        "25%": 18.0,
+        "50%": 30.0,
+        "75%": 44.5,
+        "max": 59.0
+      },
+      "frequency": {
+        "count": 239.0,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      },
+      "monetary": {
+        "count": 239.0,
+        "mean": 330.9,
+        "std": 362.6,
+        "min": 0.0,
+        "25%": 151.0,
+        "50%": 232.2,
+        "75%": 378.1,
+        "max": 3861.0
+      }
+    },
+    "Need Attention": {
+      "recency": {
+        "count": 304.0,
+        "mean": 109.1,
+        "std": 43.2,
+        "min": 2.0,
+        "25%": 73.8,
+        "50%": 100.5,
+        "75%": 150.0,
+        "max": 188.0
+      },
+      "frequency": {
+        "count": 304.0,
+        "mean": 3.7,
+        "std": 1.2,
+        "min": 3.0,
+        "25%": 3.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 15.0
+      },
+      "monetary": {
+        "count": 304.0,
+        "mean": 1112.6,
+        "std": 863.8,
+        "min": 102.0,
+        "25%": 526.7,
+        "50%": 918.1,
+        "75%": 1376.0,
+        "max": 5996.5
+      }
+    },
+    "At Risk": {
+      "recency": {
+        "count": 441.0,
+        "mean": 376.4,
+        "std": 117.0,
+        "min": 190.0,
+        "25%": 277.0,
+        "50%": 377.0,
+        "75%": 437.0,
+        "max": 725.0
+      },
+      "frequency": {
+        "count": 441.0,
+        "mean": 3.5,
+        "std": 0.7,
+        "min": 3.0,
+        "25%": 3.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 9.0
+      },
+      "monetary": {
+        "count": 441.0,
+        "mean": 1038.8,
+        "std": 1260.4,
+        "min": -3767.2,
+        "25%": 551.1,
+        "50%": 842.2,
+        "75%": 1240.6,
+        "max": 21535.9
+      }
+    },
+    "About To Sleep": {
+      "recency": {
+        "count": 1109.0,
+        "mean": 238.4,
+        "std": 118.3,
+        "min": 60.0,
+        "25%": 127.0,
+        "50%": 242.0,
+        "75%": 372.0,
+        "max": 410.0
+      },
+      "frequency": {
+        "count": 1109.0,
+        "mean": 1.4,
+        "std": 0.5,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 2.0,
+        "max": 2.0
+      },
+      "monetary": {
+        "count": 1109.0,
+        "mean": 471.2,
+        "std": 570.5,
+        "min": -1192.2,
+        "25%": 181.1,
+        "50%": 328.8,
+        "75%": 569.1,
+        "max": 9330.5
+      }
+    },
+    "Hibernating": {
+      "recency": {
+        "count": 948.0,
+        "mean": 554.7,
+        "std": 100.6,
+        "min": 411.0,
+        "25%": 458.0,
+        "50%": 551.0,
+        "75%": 634.2,
+        "max": 739.0
+      },
+      "frequency": {
+        "count": 948.0,
+        "mean": 1.2,
+        "std": 0.4,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 2.0
+      },
+      "monetary": {
+        "count": 948.0,
+        "mean": 378.6,
+        "std": 847.1,
+        "min": -10953.5,
+        "25%": 143.3,
+        "50%": 248.7,
+        "75%": 427.1,
+        "max": 11880.8
+      }
+    }
+  },
+  "top_at_risk_targets": [
+    {
+      "customer_id": 15749,
+      "segment": "At Risk",
+      "recency_days": 236,
+      "frequency": 3,
+      "monetary": 21535.9,
+      "clv_winsorized": 2985.47
+    },
+    {
+      "customer_id": 12754,
+      "segment": "At Risk",
+      "recency_days": 236,
+      "frequency": 3,
+      "monetary": 2949.12,
+      "clv_winsorized": 1692.52
+    },
+    {
+      "customer_id": 13505,
+      "segment": "Need Attention",
+      "recency_days": 73,
+      "frequency": 4,
+      "monetary": 3522.88,
+      "clv_winsorized": 1334.72
+    },
+    {
+      "customer_id": 13124,
+      "segment": "Need Attention",
+      "recency_days": 90,
+      "frequency": 4,
+      "monetary": 4782.45,
+      "clv_winsorized": 1155.51
+    },
+    {
+      "customer_id": 12625,
+      "segment": "At Risk",
+      "recency_days": 212,
+      "frequency": 4,
+      "monetary": 4627.38,
+      "clv_winsorized": 1087.17
+    },
+    {
+      "customer_id": 13135,
+      "segment": "About To Sleep",
+      "recency_days": 197,
+      "frequency": 2,
+      "monetary": 3371.45,
+      "clv_winsorized": 1029.73
+    },
+    {
+      "customer_id": 13734,
+      "segment": "At Risk",
+      "recency_days": 509,
+      "frequency": 4,
+      "monetary": 3451.29,
+      "clv_winsorized": 907.21
+    },
+    {
+      "customer_id": 12669,
+      "segment": "Need Attention",
+      "recency_days": 151,
+      "frequency": 3,
+      "monetary": 1427.73,
+      "clv_winsorized": 892.23
+    },
+    {
+      "customer_id": 12497,
+      "segment": "Need Attention",
+      "recency_days": 82,
+      "frequency": 3,
+      "monetary": 5996.5,
+      "clv_winsorized": 877.63
+    },
+    {
+      "customer_id": 13475,
+      "segment": "At Risk",
+      "recency_days": 192,
+      "frequency": 4,
+      "monetary": 1431.78,
+      "clv_winsorized": 868.1
+    }
+  ]
+}
